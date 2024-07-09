@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import logo from '../public/logo.png';
 
-export const Logo = () => {
+const Logo = () => {
   return (
     <div>
       <Link href={'/'}>
@@ -12,3 +12,5 @@ export const Logo = () => {
     </div>
   );
 };
+
+export default Logo;

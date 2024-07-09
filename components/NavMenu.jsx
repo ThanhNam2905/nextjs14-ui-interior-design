@@ -14,11 +14,7 @@ const links = [
   { path: '/contact', name: 'contact' },
 ];
 
-export const DesktopNavMenu = ({
-  containerStyles,
-  linkStyles,
-  underlineStyles,
-}) => {
+const NavMenu = ({ containerStyles, linkStyles, underlineStyles }) => {
   const path = usePathname();
   return (
     <nav className={`${containerStyles}`}>
@@ -45,3 +41,5 @@ export const DesktopNavMenu = ({
     </nav>
   );
 };
+
+export default NavMenu;

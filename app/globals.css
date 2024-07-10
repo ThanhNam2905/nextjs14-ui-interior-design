@@ -58,4 +58,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .h1 {
+    @apply text-6xl xl:text-[72px] xl:leading-[80px] xl:tracking-[-2px] font-bold mt-4 mb-5;
+  }
 }

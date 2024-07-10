@@ -1,5 +1,11 @@
-import Image from 'next/image';
+import CompanySection from '@/components/CompanySection';
+import HeroSection from '@/components/HeroSection';
 
 export default function Home() {
-  return <main>Interior Design</main>;
+  return (
+    <>
+      <HeroSection />
+      <CompanySection />
+    </>
+  );
 }

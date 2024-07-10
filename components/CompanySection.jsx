@@ -12,7 +12,6 @@ const CompanySection = () => {
           {/* Bagde 1 */}
           <motion.div
             initial="offscreen"
-            tagVariants
             whileInView={'onscreen'}
             variants={titleVariants}
             className="mx-auto flex flex-col max-w-xs gap-y-4"

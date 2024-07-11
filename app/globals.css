@@ -64,11 +64,11 @@
   }
 
   .catalogs__swiper {
-    @apply !h-[400px];
+    @apply !h-[340px];
   }
   .catalogs__swiper
     .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
-    @apply top-[79%];
+    @apply top-[92%];
   }
   .catalogs__swiper .swiper-pagination-bullet {
     @apply w-2.5 h-2.5 dark:bg-white;

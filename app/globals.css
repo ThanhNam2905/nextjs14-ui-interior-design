@@ -62,4 +62,19 @@
   .h1 {
     @apply text-6xl xl:text-[72px] xl:leading-[80px] xl:tracking-[-2px] font-bold mt-4 mb-5;
   }
+
+  .catalogs__swiper {
+    @apply !h-[400px];
+  }
+  .catalogs__swiper
+    .swiper-pagination.swiper-pagination-bullets.swiper-pagination-horizontal {
+    @apply top-[79%];
+  }
+  .catalogs__swiper .swiper-pagination-bullet {
+    @apply w-2.5 h-2.5 dark:bg-white;
+  }
+
+  .catalogs__swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-primary;
+  }
 }

@@ -67,7 +67,7 @@ export default function CatalogueSection() {
                 See Details <TbArrowNarrowRight className="ml-2 w-5 h-5" />
               </a>
             </div>
-            <div className="inset-0 bg-tertiary flex-col items-center justify-between md:flex md:absolute  pt-10 pb-12 text-xl transition duration-300 ease-in-out border-b-2 group-hover:translate-y-full md:border-b-0">
+            <div className="inset-0 bg-tertiary flex-col items-center justify-between md:flex md:absolute  pt-10 pb-12 text-xl transition duration-300 ease-in-out border-b-2 group-hover:translate-y-full md:border-b-0 hidden">
               <TbArrowNarrowRight className="w-7 h-7 rotate-90" />
               <div className="flex flex-col items-center gap-24">
                 <p className="tracking-wider font-semibold -rotate-90">

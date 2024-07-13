@@ -23,6 +23,14 @@ const projects = [
     image: '/images/project4.png',
     link: '#',
   },
+  {
+    id: 4,
+    name: 'Perfect living room for family time',
+    description:
+      'Drowing room with a clean and comfortable design for your family, charming with a morden design',
+    image: '/images/project4.png',
+    link: '#',
+  },
 ];
 
 const Page = () => {
@@ -33,7 +41,7 @@ const Page = () => {
           Our Projects
         </h1>
       </div>
-      <div className="container grid lg:grid-cols-2 gap-8 py-8">
+      <div className="container grid lg:grid-cols-2 gap-10 py-8 my-5 md:my-8 lg:my-12">
         {projects.map((item) => (
           <div
             key={item.id}

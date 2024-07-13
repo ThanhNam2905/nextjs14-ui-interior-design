@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import { TbArrowUpRight } from 'react-icons/tb';
 import { Button } from './ui/button';
-import { motion } from 'framer-motion';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -71,10 +70,10 @@ const CatalogSwiperSection = () => {
             spaceBetween: 40,
           },
         }}
-        // autoplay={{
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={true}
         loop={true}
         modules={[Autoplay, Pagination]}

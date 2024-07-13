@@ -10,7 +10,7 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 
 const Josef = Sen({
   subsets: ['latin'],
-  weights: '400, 500, 600, 700',
+  weights: '200, 300, 400, 500, 600, 700',
   display: 'swap',
 });
 

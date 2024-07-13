@@ -77,4 +77,8 @@
   .catalogs__swiper .swiper-pagination-bullet.swiper-pagination-bullet-active {
     @apply bg-primary;
   }
+
+  .footer__link-item {
+    @apply relative pb-[2px] capitalize !inline before:absolute before:bottom-0 before:left-0 before:w-0 before:h-[2px] hover:before:w-[105%] hover:before:transition-all hover:before:duration-300 before:transition-all hover:before:ease-linear before:bg-gray-600;
+  }
 }
